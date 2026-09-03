@@ -1,0 +1,24 @@
+[package]
+name = "tspine"
+version = "1.0.0"
+edition = "2021"
+authors = ["Subhrajit Sain","Anubhav Singh"]
+description = "T-Spine Code (TSC) 2D Barcode encoder, decoder, inspector, and audio modem library"
+license = "IDFCPL-1.0"
+repository = "https://github.com/SubhrajitSain/TSC"
+keywords = ["barcode", "qrcode", "tspine", "steganography", "encoder"]
+categories = ["multimedia::images", "cryptography", "encoding"]
+
+[dependencies]
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "bmp"] }
+zstd = "0.13"
+hmac = "0.12"
+sha2 = "0.10"
+aes = "0.8"
+cbc = { version = "0.1", features = ["alloc"] }
+base64 = "0.22"
+rand = "0.8"
+thiserror = "1.0"
+colored = "2.1"
+hound = "3.5"
+rustfft = "6.2"
