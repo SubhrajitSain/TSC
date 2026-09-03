@@ -1,6 +1,6 @@
-## Quickstart
+# Quickstart
 
-### 1. Encode Data to an Image
+## 1. Encode Data to an Image
 
 ```rust
 use tspine::{TSpineEncoder, ColorMode, EccLevel};
@@ -25,7 +25,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 ---
 
-### 2. Encrypted & Signed TSC
+## 2. Encrypted & Signed TSC
 
 ```rust
 use tspine::TSpineEncoder;
@@ -46,7 +46,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 ---
 
-### 3. Dual-Layer Steganographic Matrix
+## 3. Dual-Layer Steganographic Matrix
 
 ```rust
 use tspine::TSpineEncoder;
@@ -67,7 +67,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 ---
 
-### 4. Decode an Image
+## 4. Decode an Image
 
 ```rust
 use tspine::scanner::image_scan::ImageScanner;
@@ -90,7 +90,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 ---
 
-### 5. Interactive HTML Diagnostics & Vector SVG
+## 5. Interactive HTML Diagnostics & Vector SVG
 
 ```rust
 use tspine::TSpineEncoder;
@@ -115,7 +115,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 ---
 
-### 6. Acoustic Modem (Audio FSK Modulation)
+## 6. Acoustic Modem (Audio FSK Modulation)
 
 ```rust
 use tspine::{ColorMode, EccLevel};
@@ -135,5 +135,3 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     Ok(())
 }
 ```
-
----

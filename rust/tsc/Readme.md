@@ -1,7 +1,5 @@
 # T-Spine Code (TSC) for Rust
 
-
-
 **T-Spine Code (TSC)** is a next-generation 2D matrix barcode and acoustic data transmission format. It utilizes an asymmetric **Roof-and-Spine** finder structure, chromatic modulation (up to 3 bits/cell), Reed-Solomon forward error correction, built-in Zstandard compression, Fernet AES encryption, and HMAC-SHA256 digital signatures.
 
 ---
@@ -34,3 +32,4 @@ Add `tspine` to your `Cargo.toml`:
 ```toml
 [dependencies]
 tspine = "1.0.0"
+```

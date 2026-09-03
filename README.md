@@ -32,14 +32,14 @@ There are 3 color modes:
 - Customizable size
 - 2, 4, and 8 color modes
 - Color callibration
-- Rotation, mirror, flip detection
+- Rotation, mirror, flip detection (WIP)
 - Minor scratch proof  
 
 ...and a LOT more.
 
 ## Usage
 
-Run `python3 tsc.py` for usage details.
+Run `python3 tsc.py` for usage details. For the rust library, check `rust/docs/Readme.md` and `rust/tsc/Readme.md` for Rust library usage details.
 
 ## Example
 
